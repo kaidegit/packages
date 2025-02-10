@@ -1,0 +1,27 @@
+
+# Kconfig file for package ch32v307_sdk_rtt_patch
+menuconfig PKG_USING_CH32V307_SDK_RTT_PATCH
+    bool "Patch for ch32v307 SDK"
+    default n
+
+if PKG_USING_CH32V307_SDK_RTT_PATCH
+
+    config PKG_CH32V307_SDK_RTT_PATCH_PATH
+        string
+        default "/packages/peripherals/hal-sdk/wch/ch32v307_sdk_rtt_patch"
+
+    choice
+        prompt "Version"
+        help
+            Select the package version
+
+        config PKG_USING_CH32V307_SDK_RTT_PATCH_LATEST_VERSION
+            bool "latest"
+    endchoice
+
+    config PKG_CH32V307_SDK_RTT_PATCH_VER
+       string
+       default "latest"    if PKG_USING_CH32V307_SDK_RTT_PATCH_LATEST_VERSION
+
+endif
+

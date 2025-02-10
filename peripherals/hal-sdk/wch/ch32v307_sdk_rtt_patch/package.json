@@ -1,0 +1,28 @@
+{
+  "name": "ch32v307_sdk_rtt_patch",
+  "description": "sdk patch for ch32v307 support rtthread",
+  "description_zh": "sdk patch for ch32v307 support rtthread",
+  "enable": "PKG_USING_CH32V307_SDK_RTT_PATCH",
+  "keywords": [
+    "ch32v307_sdk_rtt_patch"
+  ],
+  "category": "peripherals",
+  "author": {
+    "name": "kaidegit",
+    "email": "2857693944@qq.com",
+    "github": "kaidegit"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/kaidegit/ch32v307-sdk-rtt-patch",
+  "icon": "unknown",
+  "homepage": "https://github.com/kaidegit/ch32v307-sdk-rtt-patch#readme",
+  "doc": "unknown",
+  "site": [
+    {
+      "version": "latest",
+      "URL": "https://github.com/kaidegit/ch32v307-sdk-rtt-patch.git",
+      "filename": "",
+      "VER_SHA": "master"
+    }
+  ]
+}

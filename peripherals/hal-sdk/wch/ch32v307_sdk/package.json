@@ -1,0 +1,28 @@
+{
+  "name": "ch32v307_sdk",
+  "description": "CH32V307 SDK upstream",
+  "description_zh": "CH32V307 SDK upstream",
+  "enable": "PKG_USING_CH32V307_SDK",
+  "keywords": [
+    "ch32v307_sdk"
+  ],
+  "category": "peripherals",
+  "author": {
+    "name": "openwch",
+    "email": "xxx@xx.com",
+    "github": "openwch"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/openwch/ch32v307",
+  "icon": "unknown",
+  "homepage": "https://github.com/openwch/ch32v307#readme",
+  "doc": "unknown",
+  "site": [
+    {
+      "version": "latest",
+      "URL": "https://github.com/openwch/ch32v307.git",
+      "filename": "",
+      "VER_SHA": "master"
+    }
+  ]
+}
