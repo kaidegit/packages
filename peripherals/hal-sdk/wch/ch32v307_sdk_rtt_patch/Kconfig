@@ -15,13 +15,17 @@ if PKG_USING_CH32V307_SDK_RTT_PATCH
         help
             Select the package version
 
+        config PKG_USING_CH32V307_SDK_RTT_PATCH_V207
+            bool "v2.7"
+
         config PKG_USING_CH32V307_SDK_RTT_PATCH_LATEST_VERSION
             bool "latest"
     endchoice
 
     config PKG_CH32V307_SDK_RTT_PATCH_VER
-       string
-       default "latest"    if PKG_USING_CH32V307_SDK_RTT_PATCH_LATEST_VERSION
+        string
+        default "v2.7"      if PKG_USING_CH32V307_SDK_RTT_PATCH_V207
+        default "latest"    if PKG_USING_CH32V307_SDK_RTT_PATCH_LATEST_VERSION
 
 endif
 

@@ -19,10 +19,15 @@
   "doc": "unknown",
   "site": [
     {
+      "version": "v2.7",
+      "URL": "https://github.com/kaidegit/ch32v307-sdk-rtt-patch/archive/refs/tags/v2.7.zip",
+      "filename": "ch32v307-sdk-rtt-patch-2.7.zip"
+    },
+    {
       "version": "latest",
       "URL": "https://github.com/kaidegit/ch32v307-sdk-rtt-patch.git",
       "filename": "",
-      "VER_SHA": "master"
+      "VER_SHA": "main"
     }
   ]
 }
